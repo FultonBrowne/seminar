@@ -54,7 +54,8 @@ export default function Home() {
           </div>
           <div className="text-xl">
             Digital data drives the world around us and with the internet, it's
-            not just digital, it's accessible. If we look at industries such as{" "}
+            not just digital, it{"'"}s accessible. If we look at industries such
+            as{" "}
             <a href="https://www.mckinsey.com/industries/financial-services/our-insights/financial-data-unbound-the-value-of-open-data-for-individuals-and-institutions">
               finance
             </a>{" "}
