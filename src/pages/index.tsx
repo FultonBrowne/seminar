@@ -63,9 +63,9 @@ export default function Home() {
             This has led to a more transparent and efficient system that better
             serves the people. A major industry we see lacking in this regard is
             healthcare. All the data is there, digital, and technically
-            accessible, but it's locked away in proprietary and poorly designed
-            systems that are not open, promoted, and easily accessible to the
-            patient. These systems are designed for the patient, they are
+            accessible, but it{"'"}s locked away in proprietary and poorly
+            designed systems that are not open, promoted, and easily accessible
+            to the patient. These systems are designed for the patient, they are
             designed for internal use by the healthcare provider and
             administration. This creates problems and restricts what someone can
             do with <span className="italic">their</span> data.
@@ -130,17 +130,17 @@ export default function Home() {
             The Electronic Health Record (EHR) is the backbone of the modern
             healthcare system it is ubiquitous in hospitals and clinics all
             around the world. It stores and manages all of the digital records
-            of a patient's medical history, and manages the data associated with
-            billing, insurance, and other administrative tasks. As we can see{" "}
-            <a href="https://guides.lib.uw.edu/hsl/data/findclin">here</a> the
-            EHR is part of a larger system that manages healthcare data and
+            of a patient{"'"}s medical history, and manages the data associated
+            with billing, insurance, and other administrative tasks. As we can
+            see <a href="https://guides.lib.uw.edu/hsl/data/findclin">here</a>{" "}
+            the EHR is part of a larger system that manages healthcare data and
             makes it accessible to the healthcare provider at scale. Hospitals
             in the modern data-driven world rely on these systems to manage and
             because of that they are{" "}
             <a href="https://www.ehrinpractice.com/ehr-cost-and-budget-guide.html">
               very expensive
             </a>{" "}
-            and don't seem to innovate much as can be seen{" "}
+            and don{"'"}t seem to innovate much as can be seen{" "}
             <a href="https://www.forbes.com/sites/sethjoseph/2021/08/10/the-ehr-is-dead-long-live-the-ehr-platform-1-of-2/?sh=3de53ba6777d">
               here
             </a>{" "}
