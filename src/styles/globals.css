@@ -17,3 +17,7 @@ body {
         text-wrap: balance;
     }
 }
+
+a {
+    text-decoration: underline;
+}
