@@ -109,23 +109,40 @@ export default function Home() {
 
       {/* Section 3 with snap alignment */}
       <div
-        className="relative flex min-h-screen w-full snap-start content-center justify-center p-4 md:p-24"
+        className="relative flex min-h-screen snap-start flex-wrap content-center justify-center p-4 md:p-24"
         id="3"
       >
-        <div className="flex flex-col content-center justify-center gap-4 md:gap-16">
-          <div className="w-full justify-center text-2xl md:text-5xl">
+        <div className="flex w-1/2 flex-col content-center justify-center gap-4 p-4 md:gap-16">
+          <div className="justify-center text-2xl md:text-5xl">
             The healthcare world is already built on digital data
           </div>
-          <div className="w-full justify-center text-xl">
+          <div className="justify-center text-xl">
             The Electronic Health Record (EHR) is the backbone of the modern
             healthcare system it is ubiquitous in hospitals and clinics all
             around the world. It stores and manages all of the digital records
-            of a patient{"'"}s medical history, and manages the data associated
-            with billing, insurance, and other administrative tasks. As we can
-            see <a href="https://guides.lib.uw.edu/hsl/data/findclin">here</a>{" "}
-            the EHR is part of a larger system that manages healthcare data and
-            makes it accessible to the healthcare provider at scale.
+            of a patient's medical history, and manages the data associated with
+            billing, insurance, and other administrative tasks. As we can see{" "}
+            <a href="https://guides.lib.uw.edu/hsl/data/findclin">here</a> the
+            EHR is part of a larger system that manages healthcare data and
+            makes it accessible to the healthcare provider at scale. Hospitals
+            in the modern data-driven world rely on these systems to manage and
+            because of that they are{" "}
+            <a href="https://www.ehrinpractice.com/ehr-cost-and-budget-guide.html">
+              very expensive
+            </a>{" "}
+            and don't seem to innovate much as can be seen{" "}
+            <a href="https://www.forbes.com/sites/sethjoseph/2021/08/10/the-ehr-is-dead-long-live-the-ehr-platform-1-of-2/?sh=3de53ba6777d">
+              here
+            </a>{" "}
+            and by just looking at their interfaces.
           </div>
+        </div>
+        <div className="flex w-1/2 items-center justify-center p-4">
+          <img
+            className="max-h-full max-w-full"
+            src="/Picture1.png"
+            alt="EHR"
+          />
         </div>
         <div className="absolute bottom-16 left-1/2 -translate-x-1/2 transform">
           <FaArrowDown
