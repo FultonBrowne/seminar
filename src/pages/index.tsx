@@ -55,16 +55,20 @@ export default function Home() {
           <div className="w-full justify-center text-xl">
             Digital data drives the world around us and with the internet it
             {"'"}s not just digital, it{"'"}s accessible. If we look at
-            industries such as finance we see once exlusive and closed systems
-            opening up to the public. This has led to a more transparent and
-            efficient system that better serves the people. A major industry we
-            see lacking in this regard is healthcare. All the data is there,
-            digital, and technically accessible, but it{"'"}s locked away in
-            proprietary and poorly designed systems that are not open, promoted,
-            and easly-accessible to the patient. These systems are designed for
-            the patient, they are designed for internal use by the healthcare
-            provider and adminstartion. This creates problems and restricts what
-            someone can do with <span className="italic">their</span> data.
+            industries such as{" "}
+            <a href="https://www.mckinsey.com/industries/financial-services/our-insights/financial-data-unbound-the-value-of-open-data-for-individuals-and-institutions">
+              finance
+            </a>{" "}
+            we see once exlusive and closed systems opening up to the public.
+            This has led to a more transparent and efficient system that better
+            serves the people. A major industry we see lacking in this regard is
+            healthcare. All the data is there, digital, and technically
+            accessible, but it{"'"}s locked away in proprietary and poorly
+            designed systems that are not open, promoted, and easly-accessible
+            to the patient. These systems are designed for the patient, they are
+            designed for internal use by the healthcare provider and
+            adminstartion. This creates problems and restricts what someone can
+            do with <span className="italic">their</span> data.
           </div>
         </div>
         <div className="absolute bottom-16 left-1/2 -translate-x-1/2 transform">
@@ -117,7 +121,10 @@ export default function Home() {
             healthcare system it is ubiquitous in hospitals and clinics all
             around the world. It stores and manages all of the digital records
             of a patient{"'"}s medical history, and manages the data associated
-            with billing, insurance, and other administrative tasks.
+            with billing, insurance, and other administrative tasks. As we can
+            see <a href="https://guides.lib.uw.edu/hsl/data/findclin">here</a>{" "}
+            the EHR is part of a larger system that manages healthcare data and
+            makes it accessible to the healthcare provider at scale.
           </div>
         </div>
         <div className="absolute bottom-16 left-1/2 -translate-x-1/2 transform">
@@ -143,17 +150,30 @@ export default function Home() {
           </div>
           <div className="w-full justify-center text-xl">
             When dealing with medical data privacy is of the utmost importance.
-            It is often given as a reason the medical system should remain
-            closed off and proprietary. These are valid concerns, but the
-            resoultions to them are misplaced. We have the technolgy to secure
-            sensitive personal data such as financial information, and we can
-            implement similar systems to secure and open up medical data. The
-            key is to give the user finely-grained control over who can access
-            their data and what they can do with it. This sounds obvious, in our
+            It is often given as a{" "}
+            <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/bioe.12711">
+              reason the medical system should remain closed off and proprietary
+            </a>
+            . These are valid concerns, but the resoultions to them are
+            misplaced. We have the technolgy to{" "}
+            <a href="https://www.apisec.ai/blog/what-is-oauth">
+              secure sensitive personal data
+            </a>
+            , such as financial information (a great example of this is{" "}
+            <a href="https://plaid.com/">Plaid</a>), and we can implement
+            similar systems to secure and open up medical data. The key is to
+            give the user finely-grained control over who can access their data
+            and what they can do with it. This sounds obvious, in our
             digital-data driven world and the technolgy is there to achieve it.
             In this way I think by giving the patient control over their data we
             aren{"'"}t reducing their privacy, we are increasing it and allowing
-            them to do more with it simultaneously.
+            them to do more with it simultaneously. Many people are already
+            proposing ways we can{" "}
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2965886/">
+              open up medical data while maintaining privacy in a meaningful way
+            </a>
+            , this is an area that has a lot of research behind it and we know
+            it can be executed well.
           </div>
         </div>
 
@@ -180,12 +200,15 @@ export default function Home() {
           <div className="w-full justify-center text-xl">
             The EHR is essential to the modern healthcare system, it keeps
             hospitals running and effciently manages patient data. However, EHR
-            providers such as Epic and Athena Health treat patient data as a
-            commodity, something <span className="italic">they</span> own and
-            control. This has been a major roadblock to innovation in the
-            medical data sphere. This commoditization of patient data has led to
-            a system where the patient has little to no control over their data,
-            and techincally basic things like exporting and importing their own
+            providers such as Epic and Athena Health treat{" "}
+            <a href="https://jamanetwork.com/journals/jama-health-forum/fullarticle/2777782">
+              patient data as a commodity
+            </a>
+            , something <span className="italic">they</span> own and control.
+            This has been a major roadblock to innovation in the medical data
+            sphere. This commoditization of patient data has led to a system
+            where the patient has little to no control over their data, and
+            techincally basic things like exporting and importing their own
             medical records can be difficult or impossible.
           </div>
         </div>
@@ -389,7 +412,7 @@ export default function Home() {
             you{"'"}re, if you{"'"}re adminstration talk to your superiors about
             the need for more data access and transparency, if you{"'"}re a
             software developer play with building systems to utilize what data
-            we havem if you{"'"}re a patient talk to your doctor about the need
+            we have if you{"'"}re a patient talk to your doctor about the need
             for better data access and transparency, and we should all talk to
             any of our government representatives about the need for more data
             access and transparency in healthcare. Together we can work towards
