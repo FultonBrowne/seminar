@@ -45,30 +45,39 @@ export default function Home() {
 
       {/* Section 1 with snap alignment */}
       <div
-        className="relative flex min-h-screen w-full snap-start content-center justify-center p-4 md:p-24"
+        className="relative flex min-h-screen snap-start flex-wrap justify-center p-4 md:p-24"
         id="1"
       >
-        <div className="flex w-full flex-col content-center justify-center gap-4 md:gap-16">
-          <div className="w-full content-center justify-center text-2xl md:text-5xl">
+        <div className="flex w-1/2 flex-col justify-center gap-4 p-4 md:gap-16">
+          <div className="text-2xl md:text-5xl">
             The modern world is built on <span className="italic">data</span>
           </div>
-          <div className="w-full justify-center text-xl">
-            Digital data drives the world around us and with the internet it
-            {"'"}s not just digital, it{"'"}s accessible. If we look at
-            industries such as{" "}
+          <div className="text-xl">
+            Digital data drives the world around us and with the internet, it's
+            not just digital, it's accessible. If we look at industries such as{" "}
             <a href="https://www.mckinsey.com/industries/financial-services/our-insights/financial-data-unbound-the-value-of-open-data-for-individuals-and-institutions">
               finance
             </a>{" "}
-            we see once exlusive and closed systems opening up to the public.
+            we see once exclusive and closed systems opening up to the public.
             This has led to a more transparent and efficient system that better
             serves the people. A major industry we see lacking in this regard is
             healthcare. All the data is there, digital, and technically
-            accessible, but it{"'"}s locked away in proprietary and poorly
-            designed systems that are not open, promoted, and easly-accessible
-            to the patient. These systems are designed for the patient, they are
+            accessible, but it's locked away in proprietary and poorly designed
+            systems that are not open, promoted, and easily accessible to the
+            patient. These systems are designed for the patient, they are
             designed for internal use by the healthcare provider and
-            adminstartion. This creates problems and restricts what someone can
+            administration. This creates problems and restricts what someone can
             do with <span className="italic">their</span> data.
+          </div>
+        </div>
+        <div className="flex h-full w-1/2 flex-col items-center  p-4">
+          <img
+            src="/rhood.jpeg"
+            alt="Healthcare data"
+            className="max-h-full max-w-full "
+          />
+          <div className="flex-1 text-sm italic">
+            Robin hood opened up the financial system to the public
           </div>
         </div>
         <div className="absolute bottom-16 left-1/2 -translate-x-1/2 transform">
