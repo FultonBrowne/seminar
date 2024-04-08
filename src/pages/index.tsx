@@ -236,7 +236,11 @@ export default function Home() {
             sphere. This commoditization of patient data has led to a system
             where the patient has little to no control over their data, and
             techincally basic things like exporting and importing their own
-            medical records can be difficult or impossible.
+            medical records can be difficult or impossible. This is a major
+            issue and can stifle inovation and competion in the medical
+            industry. Ultimately, this commoditization of patient data is
+            misplced and it keeps data control out of the hands of the people it
+            truly belongs to, the patients.
           </div>
         </div>
         {/* Content for section 5 */}
@@ -270,7 +274,10 @@ export default function Home() {
             tools and to fill in the legal requirements of the medical system.
             These EHR companies have little to no interest in changing this, as
             they see the data as their commodity and the patient access to it as
-            an afterthought.
+            an afterthought. There is a need for patient-first software in the
+            healthcare industry and the currentl players aren{"'"}t providing
+            it, it{"'"}s a glaring hole in the market that needs to be filled
+            for the good of the patient and industry as a whole.
           </div>
         </div>
         {/* Content for section 6 */}
@@ -287,28 +294,37 @@ export default function Home() {
       </div>
       {/* Section 7 with snap alignment */}
       <div
-        className="relative flex min-h-screen snap-start items-center p-4 md:justify-start md:p-24"
+        className="relative flex min-h-screen snap-start flex-wrap items-center p-4 md:justify-start md:p-24"
         id="7"
       >
-        <div className="flex flex-col content-center justify-center gap-4 md:gap-16">
-          <div className="w-full content-center justify-center text-2xl md:text-5xl">
-            Medical data access works
-          </div>
-          <div className="w-full justify-center text-xl">
-            A lot of contries have implemented systems where the patient has
-            controll over there health care records. If we look at places like
+        <div className="flex w-1/2 flex-col justify-center gap-4 p-4 md:gap-16">
+          <div className="text-2xl md:text-5xl">Medical data access works</div>
+          <div className="text-xl">
+            A lot of countries have implemented systems where the patient has
+            control over their health care records. If we look at places like
             the UK and Sweden (highlighted in{" "}
             <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9518004/">
               this
             </a>{" "}
-            article) we can see that the systems work. The patient has control
-            over more control and access to their health data and favorable
-            outcomes have been seen. Outcomes such as increased patient trust,
-            increase in patient responsibility, and increased patient
-            understanding in their own health.
+            article) we can see that the systems work. The patient has more
+            control and access to their health data and favorable outcomes have
+            been seen. Outcomes such as increased patient trust, increase in
+            patient responsibility, and increased patient understanding in their
+            own health. These countries have shown that more medical data access
+            has a lot of direct benefits to the patient and the healthcare
+            system as a whole and it can be done in a secure and safe manner.
           </div>
         </div>
-        {/* Content for section 7 */}
+        <div className="w-1/2 items-center justify-center p-4">
+          <img
+            src="/nhs.jpg"
+            alt="Healthcare system"
+            className="max-h-full max-w-full"
+          />
+          <div className="text-sm text-gray-500">
+            Image from <a href="https://www.nhs.uk/">NHS</a>
+          </div>
+        </div>
         <div className="absolute bottom-16 left-1/2 -translate-x-1/2 transform">
           <FaArrowDown
             className="animate-bounce text-3xl"
@@ -320,6 +336,7 @@ export default function Home() {
           />
         </div>
       </div>
+
       {/* Section 8 with snap alignment */}
       <div
         className="relative flex min-h-screen snap-start items-center p-4 md:justify-start md:p-24"
